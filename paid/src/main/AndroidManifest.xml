@@ -4,7 +4,7 @@
     <dist:module
             dist:onDemand="true"
             dist:title="@string/title_paid_feature">
-        <dist:fusing dist:include="true"/>
+        <dist:fusing dist:include="false"/>
     </dist:module>
 </manifest>
 

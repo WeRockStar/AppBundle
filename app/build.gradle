@@ -22,12 +22,19 @@ android {
     }
 
 
-    dynamicFeatures = [":paid", ":free"]
-
-
-
-
+    bundle {
+        density {
+            enableSplit false
+        }
+        abi {
+            enableSplit true
+        }
+        language {
+            enableSplit false
+        }
+    }
     
+    dynamicFeatures = [":paid", ":free"]
 
 
 }
