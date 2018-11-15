@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AppBundle</string>
+    <string name="title_paid_feature">Paid</string>
+    <string name="title_free">Free</string>
 </resources>
